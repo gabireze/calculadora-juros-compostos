@@ -31,7 +31,7 @@
 
 ## Demo
 
-Acesse a aplicação localmente seguindo as instruções de instalação abaixo.
+**[Ver Demo ao Vivo](https://calculadora-juros-compostos-dusky.vercel.app/)**
 
 ## Pré-requisitos
 
@@ -42,8 +42,8 @@ Acesse a aplicação localmente seguindo as instruções de instalação abaixo.
 
 ### 1. Clone o Repositório
 ```bash
-git clone <url-do-repositorio>
-cd calculadoras-simuladores-app
+git clone https://github.com/gabireze/calculadora-juros-compostos.git
+cd calculadora-juros-compostos
 ```
 
 ### 2. Instale as Dependências

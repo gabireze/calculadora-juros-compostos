@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://calculadora-juros-compostos.vercel.app'),
+  metadataBase: new URL('https://calculadora-juros-compostos-dusky.vercel.app'),
   title: "Calculadora de Juros Compostos | Simulador de Investimentos Gratuito",
   description: "Calculadora gratuita de juros compostos com gráficos interativos. Simule investimentos, visualize a evolução do patrimônio e compare cenários com aportes mensais.",
   keywords: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://calculadora-juros-compostos.vercel.app',
+    url: 'https://calculadora-juros-compostos-dusky.vercel.app',
     title: 'Calculadora de Juros Compostos | Simulador de Investimentos',
     description: 'Simulador gratuito de juros compostos com gráficos interativos. Calcule a evolução do seu investimento com aportes mensais.',
     siteName: 'Calculadora Juros Compostos',
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     google: 'seu-codigo-google-search-console',
   },
   alternates: {
-    canonical: 'https://calculadora-juros-compostos.vercel.app',
+    canonical: 'https://calculadora-juros-compostos-dusky.vercel.app',
   },
 };
 
@@ -78,7 +78,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="canonical" href="https://calculadora-juros-compostos.vercel.app" />
+        <link rel="canonical" href="https://calculadora-juros-compostos-dusky.vercel.app" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
