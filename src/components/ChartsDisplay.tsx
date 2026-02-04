@@ -42,13 +42,13 @@ export default function ChartsDisplay({ result }: ChartsDisplayProps) {
 
   const doughnutData = {
     labels: [
-      `Total Acumulado: R$ ${formatCurrency(result.finalValue)}`,
+      `Total Acumulado: R$ ${formatCurrency(result.totalFinal)}`,
       `Valor Investido: R$ ${formatCurrency(result.totalInvested)}`,
       `Total em Juros: R$ ${formatCurrency(result.totalJuros)}`
     ],
     datasets: [
       {
-        data: [result.finalValue || 0, result.totalInvested || 0, result.totalJuros || 0],
+        data: [result.totalFinal || 0, result.totalInvested || 0, result.totalJuros || 0],
         backgroundColor: ['#3b82f6', '#10b981', '#9333ea'],
         borderColor: ['#2563eb', '#059669', '#7e22ce'],
         borderWidth: 2,
