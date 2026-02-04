@@ -45,25 +45,18 @@ export default function CompoundInterestCalculator() {
   return (
     <div className="min-h-screen bg-linear-to-b from-blue-50 to-indigo-50 py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Calculadora de Juros Compostos
-          </h1>
-          <p className="text-lg text-gray-600">
-            Descubra o poder dos juros compostos e projete o crescimento de seus
-            investimentos ao longo do tempo com nossa calculadora gratuita.
-          </p>
-        </header>
-
         {/* Main Content */}
         <div className="space-y-8 max-w-2xl mx-auto w-full">
           {/* Input Form */}
           <section aria-label="Formulário de simulação">
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                Simulador de Investimentos
-              </h2>
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">
+                Calculadora de Juros Compostos
+              </h1>
+              <p className="text-base text-gray-600 mb-6">
+                Descubra o poder dos juros compostos e projete o crescimento de seus
+                investimentos ao longo do tempo com nossa calculadora gratuita.
+              </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {/* Initial Value */}
