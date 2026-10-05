@@ -29,10 +29,6 @@
 - **Tabela de Breakdown**: Visualização detalhada mês a mês ou ano a ano
 - **Cards de Resultado**: Valor final, composição e multiplicador
 
-## Demo
-
-**[Ver Demo ao Vivo](https://calculadora-juros-compostos-dusky.vercel.app/)**
-
 ## Pré-requisitos
 
 - **Node.js** 18+ ([Download](https://nodejs.org/))
@@ -68,19 +64,6 @@ Os arquivos compilados estarão em `.next/`
 ### Executar em Produção
 ```bash
 npm start
-```
-
-## Deploy
-
-### Deploy na Vercel (Recomendado)
-1. Importe o projeto na [Vercel](https://vercel.com/new)
-2. A Vercel detecta automaticamente Next.js
-3. Deploy automático
-
-### Deploy Manual (Netlify, outras plataformas)
-```bash
-npm run build
-# Configure o diretório de build como .next/
 ```
 
 ## Arquitetura
